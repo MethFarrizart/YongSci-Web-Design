@@ -1,0 +1,922 @@
+@media (min-width: 1200px) {
+
+    .col-xl-1 {
+        width: 8.33%;
+    }
+
+    .col-xl-2 {
+        width: 16.66%;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        width: 33.33%;
+    }
+
+    .col-xl-5 {
+        width: 41.66%;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.33%;
+    }
+
+    .col-xl-8 {
+        width: 66.66%;
+    }
+
+    .col-xl-9 {
+        width: 75%;
+    }
+
+    .col-xl-10 {
+        width: 83.33%;
+    }
+
+    .col-xl-11 {
+        width: 91.66%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+}
+
+/* Laptop small screen */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+
+    /* header section */
+    .header-container{
+        justify-content: space-between;
+        padding: 10px 80px;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%;
+        margin-top: -1px;
+    }
+    
+    /* create 7 menus */
+    .top-header__menu ul li{
+        padding: 5px 1px;
+        margin-top: -20px;
+    }
+    .top-header__menu ul li a{
+        font-size: 17px;
+        padding: 10px 14px;
+    }
+    .top-header__menu ul li a i{
+        font-size: 30px;
+    }
+
+    .banner {
+        height: 100vh;
+    }
+
+
+    .txt2 h1{
+        font-size: 45px;
+
+    }
+
+
+    /* create footer container */
+    .last-footer{
+        padding: 50px 20px;
+        justify-content: space-between;
+    }
+
+    /* create logo and text below  */
+    .last-footer .last-logo img{
+        margin: 10px 25%;
+    }
+    .last-logo p{
+        font-size: 14px;
+        margin: 10px 10px;
+    }
+
+    .middle-more__info{
+        margin-left: 5%;
+    }
+
+    .middle-more__info p{
+        margin-left: -15px;
+        font-weight: bold;
+    }
+
+    .social-media__list ul li a{
+        font-size: 25px;
+    }
+    .social-media__list ul li a span{
+        font-size: 14.5px;
+    }
+
+    /* create two link columns */
+    .choose-course p{
+        margin-left: -30px;
+    }
+
+    .column-course ul li a{
+        font-size: 14px;
+    }
+}
+
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+    body{
+        background-size: 100% 700px;
+    }
+
+
+    /* header section */
+	.header-container{
+        justify-content: space-between;
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 60px;
+        margin-top: 15px;
+    }
+
+     /* create 7 menus */
+    .top-header__menu ul li{
+        padding: 5px 1px;
+        margin-top: -15px;
+    }
+    .top-header__menu ul li a{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .top-header__menu ul li a i{
+        font-size: 20px;
+    }
+    
+
+    .banner {
+        height: 76vh;
+    }
+
+
+    .txt2 {
+        height: 75vh;
+        gap: 30px;
+
+    }
+
+    .txt2 h1 {
+        font-size: 45px;
+    }
+
+    .txt2 p {
+        font-size: 20px;
+    }
+
+    .txt2 h2 {
+        font-size: 30px;
+    }
+
+    .txt2 button {
+        font-size: 20px;
+        width: 40%;
+        padding: 15px;
+    }
+
+    .card-container {
+        padding: 20px;
+        height: 750px;
+    }
+
+/* create footer container */
+.last-footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* create logo and text below  */
+.last-footer .last-logo img{
+    margin: 20px 50px;
+}
+
+.last-logo p{
+    font-size: 20px;
+    margin: 10px -70px;
+}
+
+.middle-more__info{
+    margin-top: 1%;
+}
+
+.middle-more__info p{
+    font-weight: bold;
+    margin-left: -60px;
+}
+
+.social-media__list ul li a{
+    font-size: 25px;
+    margin-left: -60px;
+}
+.social-media__list ul li a span{
+    font-size: 17px;
+}
+
+/* create two link columns */
+.choose-course p{
+    margin-left: -20px;
+}
+
+.column-course ul li a{
+    font-size: 15px;
+}
+
+    
+}
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+
+    /* header section */
+    .header-container{
+        justify-content: space-between;
+        padding: 0 10px;
+        height: 100px;
+        z-index: 9;
+    }
+
+    /* bars icon */
+    nav.click-bars{
+        display: block;
+        color: white;
+        list-style-type: none;
+        font-size: 30px;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    
+    /* cross sign icon */
+    nav.click-bars .fa-xmark{
+        display: none;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 70px;
+    }
+
+    /* create 7 menus */
+    .top-header__menu{ display: none;}
+
+    /* design menu only in iphone */
+    .top-header__menu--by_iphone{
+        display: block;
+    }
+    /* create 7 menus */
+    .top-header__menu--by_iphone ul{
+        list-style-type: none;
+        transform: translate(180px, 100px);
+    }
+  
+    .top-header__menu--by_iphone ul li{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 20px 15px;
+        background-color: rgb(21, 21, 94);
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+
+    .top-header__menu--by_iphone ul li img{
+        width: 30px; height: 30px;
+        margin-top: -5px;
+    }
+
+    .top-header__menu--by_iphone ul li:last-child{
+        border-bottom: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a{
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a i{
+        font-size: 20px;
+    }
+  
+    .top-header__menu--by_iphone ul li:hover{
+        transition: none;
+        transform: none;
+        background-color: rgb(62, 62, 204);
+    }
+
+    .top-header__menu--by_iphone ul li .fa-cart-plus{
+        display: none;
+    }
+
+    .addtxt{
+        display: block;
+    }
+
+    body{
+        background-size: 100% 800px;
+    }
+
+
+    .banner {
+        height: 90vh;
+    }
+
+
+    .txt2 {
+        height: 80vh;
+        gap: 30px;
+        padding: 50px;
+
+    }
+
+    .txt2 h1 {
+        font-size: 35px;
+    }
+
+    .txt2 p {
+        font-size: 20px;
+    }
+
+    .txt2 h2 {
+        font-size: 30px;
+    }
+
+    .txt2 button {
+        font-size: 20px;
+        width: 250px;
+        padding: 15px;
+    }
+
+    .card-container {
+        padding: 20px;
+        height: 750px;
+    }
+
+/* create footer container */
+.last-footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* create logo and text below  */
+.last-footer .last-logo img{
+    margin: 10px 50px;
+}
+
+  
+.last-logo p{
+    font-size: 15px;
+    margin: 10px -70px;
+}
+
+.middle-more__info{
+    margin-top: 1%;
+}
+
+.middle-more__info p{
+    font-weight: bold;
+    margin-left: -60px
+}
+
+.social-media__list ul li a{
+    font-size: 25px;
+    margin-left: -60px;
+}
+.social-media__list ul li a span{
+    font-size: 17px;
+}
+
+/* create two link columns */
+.choose-course p{
+    margin-left: -10px;
+}
+
+.column-course ul li a{
+    font-size: 15px;
+}
+
+}
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+    body{
+        background-size: 100% 500px;
+    }
+
+    .col-xs-1 {
+        width: 8.33%;
+    }
+
+    .col-xs-2 {
+        width: 16.66%;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+    }
+
+    .col-xs-4 {
+        width: 33.33%;
+    }
+
+    .col-xs-5 {
+        width: 41.66%;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-xs-7 {
+        width: 58.33%;
+    }
+
+    .col-xs-8 {
+        width: 66.66%;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+    }
+
+    .col-xs-10 {
+        width: 83.33%;
+    }
+
+    .col-xs-11 {
+        width: 91.66%;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    /* header section */
+    .header-container{
+        justify-content: space-between;
+        padding: 0 10px;
+        height: 100px;
+    }
+
+     /* bars icon */
+     nav.click-bars{
+        display: block;
+        color: white;
+        list-style-type: none;
+        font-size: 30px;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    
+    /* cross sign icon */
+    nav.click-bars .fa-xmark{
+        display: none;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 70px;
+    }
+
+    /* create 7 menus */
+    .top-header__menu{ display: none;}
+
+
+    /* design menu only in iphone */
+    .top-header__menu--by_iphone{
+        display: block;
+    }
+    /* design menu only in iphone  */
+    .top-header__menu--by_iphone{
+        display: block;
+    }
+
+    .top-header__menu--by_iphone ul{
+        list-style-type: none;
+        transform: translate(180px, 100px);
+    }
+  
+    .top-header__menu--by_iphone ul li{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 20px 15px;
+        background-color: rgb(21, 21, 94);
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+
+    .top-header__menu--by_iphone ul li img{
+        width: 30px; height: 30px;
+        margin-top: -5px;
+    }
+
+    .top-header__menu--by_iphone ul li:last-child{
+        border-bottom: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a{
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a i{
+        font-size: 20px;
+    }
+  
+    .top-header__menu--by_iphone ul li:hover{
+        transition: none;
+        transform: none;
+        background-color: rgb(62, 62, 204);
+    }
+
+    .top-header__menu--by_iphone ul li .fa-cart-plus{
+        display: none;
+    }
+
+    body{
+        background-size: 100% 650px;
+    }
+
+    .addtxt{
+        display: block;
+    }
+
+    .banner {
+        height: 76vh;
+    }
+
+
+    .txt2 {
+        height: 90vh;
+        gap: 10px;
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .txt2 h1 {
+        font-size: 30px;
+    }
+
+    .txt2 p {
+        font-size: 15px;
+    }
+
+    .txt2 h2 {
+        font-size: 15px;
+    }
+
+    .txt2 button {
+        font-size: 15px;
+        width: 45%;
+        padding: 15px;
+        margin-top: 50px;
+    }
+
+    /* Instructors Section */
+    .instructors {
+        padding: 20px 30px;
+        text-align: center;
+        background-color: rgb(231, 231, 241);
+        margin-top: -45px;
+    }
+
+    .instructors h1 {
+        color: #F09F00;
+        font-size: 30px;
+    }
+
+    .instructors p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* card-content */
+
+    .card-container {
+        padding: 10px;
+        height: 550px;
+    }
+
+    .img-container {
+        height: 150px;
+    }
+
+    .img-container img {
+        height: 150px;
+    }
+
+    .des {
+        margin-top: 5px;
+    }
+
+    .rating {
+        margin: 10px 5px;
+        gap: 15px
+    }
+
+    .des h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+
+
+    .des p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .social-media {
+        justify-content: center;
+        gap: 10px;
+        display: flex;
+        font-size: 20px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .social-media :nth-child(1) {
+        background-color: rgb(64, 177, 247);
+
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 100%;
+    }
+
+    .social-media :nth-child(2) {
+        background-color: rgb(59, 90, 153);
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+
+    .social-media :nth-child(3) {
+        background-color: rgb(254, 119, 92);
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+
+    .social-media :nth-child(4) {
+        background-color: rgb(22, 105, 253);
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+
+    .des button {
+        margin-top: 10px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .btn-all-instructors button {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+
+
+    /* create footer container */
+.last-footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* create logo and text below  */
+.last-footer .last-logo img{
+    margin: 10px 50px;
+}
+
+  
+.last-logo p{
+    font-size: 15px;
+    margin: 10px -70px;
+}
+
+.middle-more__info{
+    margin-top: 1%;
+}
+
+.middle-more__info p{
+    font-weight: bold;
+    margin-left: -60px
+}
+
+.social-media__list ul li a{
+    font-size: 25px;
+    margin-left: -60px;
+}
+.social-media__list ul li a span{
+    font-size: 17px;
+}
+.choose-course{
+    margin-left: -35px;
+}
+
+/* create two link columns */
+.choose-course p{
+    margin-left: -10px;
+}
+
+.column-course ul li a{
+    font-size: 15px;
+}
+
+}

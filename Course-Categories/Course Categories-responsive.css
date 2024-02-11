@@ -1,0 +1,906 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* header section */
+    .header-container{
+        justify-content: space-between;
+        padding: 10px 80px;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%;
+        margin-top: -1px;
+    }
+    
+    /* create 7 menus */
+    .top-header__menu ul li{
+        padding: 5px 1px;
+        margin-top: -20px;
+    }
+    .top-header__menu ul li a{
+        font-size: 17px;
+        padding: 10px 14px;
+    }
+    .top-header__menu ul li a i{
+        font-size: 30px;
+    }
+
+    
+   .field{
+        margin-left: 300px;
+    }
+   .field input[type = "text"]{
+        width: 70%;
+   }
+    
+    /* introduction */
+    .intro-txt{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    /* create left text */
+    .left-txt{
+        font-size: 25px;
+    }
+
+    /* create right txt with img */
+    .right-txtImg img{
+        width: 200px; height: 200px;
+    }
+    .right-txtImg p{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .basic-lvl__course,
+    .prof-dev__course{
+        margin-left: 10%;
+    }
+
+    .basic-lvl__title{
+        width: 20%;
+    }
+
+    .prof-dev__title{
+        width: 40%;
+    }
+
+    /* create box courses container */
+    .box-course__container{
+        column-gap: 15px;
+        row-gap: 40px;
+    }
+
+    /* create three box courses */
+    .box-course{
+        width: 29%;
+        height: 290px;
+    }
+
+    /* divide 2 box */
+    .two-box{
+        gap: 5px;
+        margin-top: -20px;
+    } 
+
+    .box-course p{
+        font-size: 15px;
+    }
+
+    .last-cont{
+        margin-top: 100px;
+    }
+
+    .last-cont img{
+        height: 270px;
+    }
+
+    .explore-btn button{
+        margin-top: 5px;
+        width: 15%;
+        margin-left: 30px;
+    }
+
+    /* create footer container */
+    .last-footer{
+        padding: 50px 0;
+        justify-content: space-between;
+    }
+
+    /* create logo and text below  */
+    .last-footer .last-logo img{
+        margin: 10px 25%;
+    }
+    .last-logo p{
+        font-size: 14px;
+        margin: 10px 10px;
+    }
+
+    .middle-more__info{
+        margin-left: 5%;
+    }
+
+    .middle-more__info p{
+        margin-left: -15px;
+        font-weight: bold;
+    }
+
+    .social-media__list ul li a{
+        font-size: 25px;
+    }
+    .social-media__list ul li a span{
+        font-size: 17px;
+    }
+
+    /* create two link columns */
+    .choose-course p{
+        margin-left: -30px;
+    }
+
+    .column-course ul li a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 992px) {
+    /* header section */
+	.header-container{
+        justify-content: space-between;
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 60px;
+        margin-top: 15px;
+    }
+
+     /* create 7 menus */
+    .top-header__menu ul li{
+        padding: 5px 1px;
+        margin-top: -15px;
+    }
+    .top-header__menu ul li a{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .top-header__menu ul li a i{
+        font-size: 20px;
+    }
+
+    
+    .field{
+       margin-left: -30px;
+       margin-top: 220px;
+    }
+    .field input[type = "text"]{
+        width: 70%;
+    }
+
+    .main-course .h2{
+        text-align: center;
+        margin-top: -110px;
+    }
+
+    /* create main course border */
+    .main-course img{
+        width: 100%;
+        height: 190px;
+        margin-top: 100px;
+    }
+    
+    /* introduction */
+    .intro-txt{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    /* create left text */
+    .left-txt{
+        font-size: 20px;
+    }
+
+    /* create right txt with img */
+    .right-txtImg img{
+        width: 200px; height: 200px;
+        margin-top: 60px;
+    }
+    .right-txtImg p{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .basic-lvl__course,
+    .prof-dev__course{
+        margin-left: 4%;
+        margin-top: -10px;
+    }
+
+    .basic-lvl__title{
+        width: 30%;
+    }
+
+    .prof-dev__title{
+        width: 50%;
+        margin-top: 200px;
+    }
+
+    /* create box courses container */
+    .box-course__container{
+        column-gap: 10px;
+        row-gap: 40px;
+    }
+
+    /* create three box courses */
+    .box-course{
+        width: 32%;
+        height: 270px;
+    }
+    .box-course p{
+        font-size: 16px;
+    }
+    .box-course a img{
+        height: 150px;
+    }
+
+    /* divide 2 box */
+    .two-box{
+        gap: 1px;
+        margin-top: 20px;
+    } 
+
+    .two-box span{
+        font-size: 13.5px;
+    }
+    .click-btn button{
+        width: 80px;
+    }
+    .box-course button a{
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .line{
+        width: auto;
+    }
+
+
+    .last-cont{
+        margin: 100px 30px;
+    }
+
+    .last-cont p{
+        font-size: 20px;
+    }
+
+    .last-cont img{
+        height: 200px;
+    }
+
+    .explore-btn button{
+        margin: 10px -150px;
+    }
+
+    /* create footer container */
+    .last-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        gap: 60px;
+    }
+
+    /* create logo and text below  */
+    .last-footer .last-logo img{
+        margin: 10px 50px;
+    }
+
+      
+    .last-logo p{
+        font-size: 20px;
+        margin: 10px -70px;
+    }
+
+    .middle-more__info{
+        margin-top: 1%;
+    }
+
+    .middle-more__info p{
+        font-weight: bold;
+        margin-left: -20px;
+    }
+
+    .social-media__list ul li a{
+        font-size: 25px;
+        margin-left: -40px;
+    }
+    .social-media__list ul li a span{
+        font-size: 17px;
+    }
+
+    /* create two link columns */
+    .choose-course p{
+        margin-left: -25px;
+    }
+
+    .column-course ul li a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px){ 
+
+    /* header section */
+    .header-container{
+        justify-content: space-between;
+        padding: 0 10px;
+        height: 100px;
+    }
+
+    /* bars icon */
+    nav.click-bars{
+        display: block;
+        color: white;
+        list-style-type: none;
+        font-size: 30px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    /* cross sign icon */
+    nav.click-bars .fa-xmark{
+        display: none;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 70px;
+    }
+
+    /* create 7 menus */
+    .top-header__menu{ display: none;}
+
+    /* design menu only in iphone  */
+    .top-header__menu--by_iphone{
+        display: block;
+    }
+
+    /* create 7 menus */
+    .top-header__menu--by_iphone ul{
+        list-style-type: none;
+        transform: translate(180px, 10px);
+        margin-top: 90px;
+    }
+  
+    .top-header__menu--by_iphone ul li{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 20px 15px;
+        background-color: rgb(21, 21, 94);
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+
+    .top-header__menu--by_iphone ul li img{
+        width: 30px; height: 30px;
+        margin-top: -5px;
+    }
+
+    .top-header__menu--by_iphone ul li:last-child{
+        border-bottom: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a{
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a i{
+        font-size: 20px;
+    }
+  
+    .top-header__menu--by_iphone ul li:hover{
+        transition: none;
+        transform: none;
+        background-color: rgb(62, 62, 204);
+    }
+
+    .top-header__menu--by_iphone ul li .fa-cart-plus{
+        display: none;
+    }
+
+    .addtxt{
+        display: block;
+    }
+
+    .field{
+       margin-left: -30px;
+       margin-top: 220px;
+    }
+    .field input[type = "text"]{
+        width: 70%; height: 60px;
+        font-size: 18px;
+    }
+
+    .field a i{font-size: 20px; transform: translate(50px, 22px);}
+
+
+    .main-course .h2{
+        text-align: center;
+        margin-top: -110px;
+    }
+    /* create main course border */
+    .main-course img{
+        width: 100%;
+        height: 190px;
+        margin-top: 100px;
+    }
+
+    
+    /* introduction */
+    .intro-txt{
+        font-size: 16px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+
+    /* create container */
+    .show-introduce{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -5%;
+    }
+    /* create left text */
+    .left-txt{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* create right txt with img */
+    .right-txtImg{
+        margin: -110px 20px;
+    }
+
+    /* create right txt with img */
+    .right-txtImg img{
+        width: 200px; height: 200px;
+    }
+    
+    .right-txtImg p{
+        font-size: 15px;
+        margin-left: 17.5%;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .basic-lvl__course,
+    .prof-dev__course{
+        margin-left: 4%;
+        margin-top: 20px;
+    }
+
+    .basic-lvl__title{
+        width: 35%;
+    }
+
+    .prof-dev__title{
+        width: 60%;
+    }
+
+    /* create box courses container */
+    .box-course__container{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    /* create three box courses */
+    .box-course{
+        width: auto;
+        height: 500px;
+    }
+    .box-course p{
+        font-size: 33px;
+        text-align: center;
+    }
+    .box-course a img{
+        height: 300px;
+    }
+
+    /* divide 2 box */
+    .two-box{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+    } 
+
+    .two-box span{
+        font-size: 20px;
+    }
+    .click-btn button{
+        width: 80px;
+        transform: translateY(-30px);
+    }
+    .box-course button a{
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .line{
+        width: auto;
+    }
+
+
+    .last-cont{
+        margin: 100px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .last-cont p{
+        font-size: 15px;
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+
+    .last-cont img{
+        height: 200px;
+        margin-top: -60px;
+    }
+
+    .explore-btn button{
+        margin: 20px -370px;
+    }
+
+    /* create footer container */
+    .last-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        gap: 60px;
+    }
+
+    /* create logo and text below  */
+    .last-footer .last-logo img{
+        margin: 10px 50px;
+    }
+
+      
+    .last-logo p{
+        font-size: 20px;
+        margin: 10px -70px;
+    }
+
+    .middle-more__info{
+        margin-top: 1%;
+    }
+
+    .middle-more__info p{
+        font-weight: bold;
+        margin-left: -20px;
+    }
+
+    .social-media__list ul li a{
+        font-size: 25px;
+        margin-left: -40px;
+    }
+    .social-media__list ul li a span{
+        font-size: 17px;
+    }
+
+    /* create two link columns */
+    .choose-course p{
+        margin-left: -25px;
+    }
+
+    .column-course ul li a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+    .header-container{
+        justify-content: space-between;
+        padding: 0 10px;
+        height: 100px;
+    }
+
+    /* bars icon */
+    nav.click-bars{
+        display: block;
+        color: white;
+        list-style-type: none;
+        font-size: 30px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    /* cross sign icon */
+    nav.click-bars .fa-xmark{
+        display: none;
+    }
+
+    /* put young-sci logo */
+    .top-header__left--logo a img{
+        width: 100%; height: 70px;
+    }
+
+    /* create 7 menus */
+    .top-header__menu{ display: none;}
+
+    /* design menu only in iphone  */
+    .top-header__menu--by_iphone{
+        display: block;
+    }
+
+    .top-header__menu--by_iphone ul{
+        list-style-type: none;
+        transform: translate(180px, 100px);
+    }
+  
+    .top-header__menu--by_iphone ul li{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 20px 15px;
+        background-color: rgb(21, 21, 94);
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+
+    .top-header__menu--by_iphone ul li img{
+        width: 30px; height: 30px;
+        margin-top: -5px;
+    }
+
+    .top-header__menu--by_iphone ul li:last-child{
+        border-bottom: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a{
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+  
+    .top-header__menu--by_iphone ul li a i{
+        font-size: 20px;
+    }
+  
+    .top-header__menu--by_iphone ul li:hover{
+        transition: none;
+        transform: none;
+        background-color: rgb(62, 62, 204);
+    }
+
+    .top-header__menu--by_iphone ul li .fa-cart-plus{
+        display: none;
+    }
+
+    .addtxt{
+        display: block;
+    }
+
+
+   .field{
+       margin-left: -30px;
+       margin-top: 200px;
+    }
+    .field input[type = "text"]{
+        width: 90%; height: 60px;
+        font-size: 18px;
+    }
+
+    .field a i{font-size: 20px; transform: translate(40px, 22px);}
+
+
+    .main-course .h2{
+        text-align: center;
+        margin-top: -90px;
+        animation: anime 1s linear;
+        font-size: 25px;
+    }
+
+    /* create main course border */
+    .main-course img{
+        width: 100%;
+        height: 150px;
+        margin-top: 100px;
+    }
+    
+    /* introduction */
+    .intro-txt{
+        font-size: 16px;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+
+    /* create container */
+    .show-introduce{
+        display: flex;
+        flex-direction: column;
+    }
+    /* create left text */
+    .left-txt{
+        font-size: 20px;
+        transform: translate(-60px, 200px);
+        text-align: left;
+    }
+
+    /* create right txt with img */
+    .right-txtImg img{
+        width: 200px; height: 200px;
+        margin: -30px 25%;
+    }
+    
+    .right-txtImg p{
+        font-size: 15px;
+        margin-left: 39%;
+        margin-top: 40px;
+    }
+
+    .basic-lvl__course,
+    .prof-dev__course{
+        margin-left: 4%;
+        margin-top: 100px;
+    }
+
+    .basic-lvl__title{
+        width: 45%;
+    }
+
+    .prof-dev__title{
+        width: 70%;
+    }
+
+    /* create box courses container */
+    .box-course__container{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    /* create three box courses */
+    .box-course{
+        width: auto;
+        height: 500px;
+    }
+    .box-course p{
+        font-size: 33px;
+        text-align: center;
+    }
+    .box-course a img{
+        height: 300px;
+    }
+
+    /* divide 2 box */
+    .two-box{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+    } 
+
+    .two-box span{
+        font-size: 20px;
+    }
+    .click-btn button{
+        width: 80px;
+        transform: translateY(-30px);
+    }
+    .box-course button a{
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .line{
+        width: auto;
+    }
+
+
+    .last-cont{
+        margin: 100px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .last-cont p{
+        font-size: 15px;
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+
+    .last-cont img{
+        height: 200px;
+        margin-top: -60px;
+    }
+
+    .explore-btn button{
+        margin: 20px -370px;
+    }
+
+    /* create footer container */
+    .last-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -15%;
+        gap: 60px;
+    }
+
+    /* create logo and text below  */
+    .last-footer .last-logo img{
+        margin: 10px 50px;
+    }
+
+      
+    .last-logo p{
+        font-size: 15px;
+        margin: 10px -70px;
+    }
+
+    .middle-more__info{
+        margin-top: 1%;
+        margin-left: -30px;
+    }
+
+    .middle-more__info p{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .social-media__list ul li a{
+        font-size: 25px;
+    }
+    .social-media__list ul li a span{
+        font-size: 17px;
+    }
+
+    /* create two link columns */
+    .choose-course p{
+        margin-left: -25px;
+    }
+
+    .column-course ul li a{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    animation: anime 1s ease;
+    background-image: url('https://www.bellenglish.com/wp-content/uploads/2020/10/OnlineCourse11_1920x960-5f7b6ddfbd5b2-1920x960-c-default.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+}
+@keyframes anime {
+  0%{
+    opacity: 0.1;
+    transform: scale(1.2);
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --header-bg: #1D2346;
+    --box-card: #000A63;
+    --button-orange: #F09F00;
+    --line: #5646D8;
+    --button-blue: #1E8BEB;
+}
+
+
+.header-container {
+  width: 100%;
+  height: 110px;
+  background-color: var(--header-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 3;
+  padding: 0 140px;
+  top: 0;
+  transition: all 0.5s ease;
+  position: fixed;
+}
+
+.scroll-up .header-container{
+  transition: all ease 0.5s;
+  transform: translateY(-220px);
+  box-shadow: 0 0 100px black;
+}
+
+.scroll-down .header-container{
+  transition: all ease 0.5s;
+  position: fixed;
+}
+
+.top-header__left--logo a img{
+  width: 100%; height: 80px;
+  animation: anime-p 1s linear;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px aqua;
+  border-radius: 60%;
+}
+@keyframes anime-p {
+  10%{
+    transform: translateX(-950px);
+    transform: scale(1.5);
+    box-shadow: 0px 0px 20px aqua, 0 0 30px aqua;
+  }
+  20%{
+    transform: translateX(50px);
+    transition: 0.5s;
+  }
+}
+
+
+/* bars icon */
+nav.click-bars{
+  display: none;
+}
+
+.top-header__menu--by_iphone{
+  display: none;
+}
+
+.top-header__menu ul{
+  list-style-type: none;
+  display: inline-flex;
+  margin-top: 40px;
+}
+
+
+.top-header__menu ul li{
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+  margin-top: -10px;
+}
+
+.top-header__menu ul li .active{
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.top-header__menu ul li .active:active{
+  background-color: green;
+}
+
+
+.top-header__menu ul li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.top-header__menu ul li a i{
+  font-size: 25px;
+}
+
+.addtxt{
+  display: none;
+}
+
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* image Background */
+.banner {
+    background-color: #0f0f1134;
+    background: linear-gradient(95deg, rgba(0, 0, 0, 0.247), black);
+    height: 100vh;
+}
+
+.txt2 {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.txt2 h1 {
+    font-size: 55px;
+    animation: anime-h1 2s ease;
+    text-shadow: 0 0 10px white, 0 -10px 10px blue;
+}
+@keyframes anime-h1{
+    0%{
+        text-shadow: 0 15px 10px blue;
+        transform: translate(-1100px, 0)
+    }
+
+    50%{
+      transform: scale(2.2);
+    }
+}
+
+.txt2 p {
+    font-size: 30px;
+    animation: eff-p 1s ease;
+}
+@keyframes eff-p{
+    0%{
+        transform: translate(0, 700px);
+    }
+}
+
+.txt2 h2 {
+    font-size: 36px;
+    animation: eff-h2 1s ease;
+}
+@keyframes eff-h2{
+    0%{
+        transform: translate(-500px, 0);
+    }
+}
+
+.txt2 button {
+    font-size: 30px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F09F00;
+    cursor: pointer;
+    transition: 0.5s ease;
+    animation: eff-btn 1s ease;
+}
+@keyframes eff-btn{
+    0%{
+        transform: translate(500px, 0px);
+    }
+}
+
+.txt2 button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.txt2 button:hover{
+    background: linear-gradient(blue, aqua);
+    color: white;
+}
+
+.txt2 button a:hover{
+    color: white;
+}
+
+/* Instructors Section */
+.instructors {
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(231, 231, 241);
+}
+
+.instructors h1 {
+    color: #F09F00;
+    font-size: 50px;
+}
+
+.instructors p {
+    font-size: 30px;
+}
+
+
+/* card-content */
+.card-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 820px;
+}
+
+.card-container:hover {
+
+    transform: scale(1.02);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 10px 1px grey;
+
+}
+
+.img-container {
+    height: 200px;
+}
+
+.img-container img {
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 5px rgb(219, 219, 219);
+}
+
+.des {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    margin: 20px 10px;
+    display: flex;
+    gap: 30px
+}
+
+.des h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.des h3 {
+    color: grey;
+}
+
+
+.des p {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+    text-overflow: ellipsis;
+}
+
+.social-media {
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.social-media :nth-child(1) {
+    background-color: rgb(64, 177, 247);
+
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.social-media :nth-child(2) {
+    background-color: rgb(59, 90, 153);
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.social-media :nth-child(3) {
+    background-color: rgb(254, 119, 92);
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.social-media :nth-child(4) {
+    background-color: rgb(22, 105, 253);
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.des button {
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: white;
+    color: #5646D8;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #5646D8;
+}
+
+.des button:hover {
+    background-color: #5646D8;
+    color: white;
+
+}
+
+
+
+.btn-all-instructors button {
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #F09F00;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-top: 10px;
+}
+
+.btn-all-instructors button:hover{
+    background: linear-gradient(blue, aqua);
+    transition: 0.5s ease;
+    color: white;
+}
+
+
+
+
+/* create footer container */
+.last-footer{
+  background-color: var(--header-bg);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0;
+  justify-content: space-evenly;
+  transition: 0.5s ease;
+}
+
+/* create logo and text below  */
+.last-logo a img{
+  width: 100px; height: 100px;
+  margin: 20% 0;
+  transition: 0.5s ease;
+}
+
+.last-logo a img:hover{
+  box-shadow: 5px 5px 10px aqua, 5px 5px 30px aqua;
+  border-radius: 60%;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.last-logo p{ 
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 -120px;
+}
+
+
+.middle-more__info{
+  margin-left: 100px;
+}
+.middle-more__info p{
+  margin-top: 15px;
+  margin-left: -20px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
+
+.social-media__list ul{
+  display: block;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.social-media__list ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+}
+.social-media__list ul li a:hover{
+  color: yellow;
+}
+
+.social-media__list ul li a span{
+  font-size: 15px;
+  padding-left: 20px;
+  color: white;
+}
+
+.social-media__list ul li span:hover{
+  transition: ease 0.5s;
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+/* create two link columns */
+.choose-course p{
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  transform: translateX(150px);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.choose-course .column-course{
+  column-count: 2;
+  column-rule: 2px solid white;
+}
+
+.column-course ul{
+  list-style-type: none;
+}
+
+.column-course ul li:nth-child(n+1){
+  padding-left: 40px;
+}
+
+.column-course ul li:nth-child(n+7){
+  padding-left: 40px;
+}
+
+.column-course ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.column-course ul li a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+

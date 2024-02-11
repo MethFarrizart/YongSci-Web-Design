@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Young-Sci Education</title>
+    <link rel="shortcut icon" type="image" href="/Save Images/logo-aqua.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="mobileDevStyle.css">
+    <link rel="stylesheet" href="mobileDevStyleRes.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">    
+    
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+    <!-- link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header section -->
+    <section>
+        <div class="header-container">
+            <!-- put young-sci logo -->
+            <div class="top-header__left--logo">
+                <a href="/home_page/home_page.html"><img src="/Save Images/logo-lightAqua.png" alt=""></a>
+            </div>
+
+            <!-- bars and cross icon -->
+            <nav class="click-bars">
+                <i class=" fa fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </nav>
+
+            <!-- design menu only in iphone -->
+            <div class="top-header__menu--by_iphone">
+                <ul>
+                    <li>
+                        <a href="/home_page/home_page.html"><img src="https://cdn0.iconfinder.com/data/icons/real-estate-164/65/1-256.png" alt=""></a> 
+                        <a href="/home_page/home_page.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/Course-Categories/Course Categories-UI.html"><img src="https://cdn1.iconfinder.com/data/icons/education-bright-fill/60/031_-_Teaching_Targets-512.png" alt=""></a>
+                        <a href="/Course-Categories/Course Categories-UI.html" target="_top">Categories</a>
+                    </li>
+                    <li>
+                        <a href="/ServicePage/servicePage.html"><img src="https://cdn2.iconfinder.com/data/icons/people-flat-design/64/Support-Customer-Call_Center-Helpline-Contact-Service-Headset-512.png" alt=""></a>
+                        <a href="/ServicePage/servicePage.html" target="_top">Service</a></li>
+                    <li>
+                        <a href="/Portfolio/PortfolioUI.html"><img src="https://cdn0.iconfinder.com/data/icons/seo-web-4-1/128/Vigor_User-Avatar-Profile-Photo-02-512.png" alt=""></a>
+                        <a href="/Portfolio/PortfolioUI.html" target="_top">Portfolio</a></li>
+                    <li>
+                        <a href="/Donation/DonationUI.html"><img src="https://cdn3.iconfinder.com/data/icons/crowd-funding-11/30/18-512.png" alt=""></a>
+                        <a href="/Donation/DonationUI.html" target="_top">Donation</a></li>
+                    <li>
+                        <a href="/about_us_page/about_us_page.html"><img src="https://cdn1.iconfinder.com/data/icons/toolbar-std/512/Info-512.png" alt=""></a>
+                        <a href="/about_us_page/about_us_page.html" target="_top">About Us</a></li>
+                    <li>
+                        <a href="/cart_page/cart_page.html"><img src="https://cdn4.iconfinder.com/data/icons/green-shopper/200/chart2.png" alt=""></a>
+                        <a href="/cart_page/cart_page.html" target="_top"><i class="fa-solid fa-cart-plus"></i>
+                            <div class="addtxt"> Cart Course</div>
+                        </a>
+                    </li>
+                </ul>  
+            </div>
+
+            
+            <!-- create 7 menus -->
+            <div class="top-header__menu">
+                <ul>
+                    <li><a class="active" href="/home_page/home_page.html">Home</a></li>
+                    <li><a href="/Course-Categories/Course Categories-UI.html" target="_top">Categories</a></li>
+                    <li><a href="/ServicePage/servicePage.html" target="_top">Service</a></li>
+                    <li><a href="/Portfolio/PortfolioUI.html" target="_top">Portfolio</a></li>
+                    <li><a href="/Donation/DonationUI.html" target="_top">Donation</a></li>
+                    <li><a href="/about_us_page/about_us_page.html" target="_top">About Us</a></li>
+                    <li>
+                        <a href="/cart_page/cart_page.html" target="_top"><i class="fa-solid fa-cart-plus"></i>
+                            <div class="addtxt"> Cart Course</div>
+                        </a>
+                    </li>
+                </ul>  
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <section class="search-content">
+        <!-- create search box -->
+        <div class="field">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input type="text" placeholder="Search The Course">
+        </div>
+    </section>
+
+
+
+    <section class="main-section">
+        <div class="title">
+            <h1> <Span class="typethis"></Span></h1>
+            <p> <span class="type_para"></span>
+                <!-- Whether you are looking to enhance your mobile-development skills or are simply interested in designing
+                your own mobile app. <br> Young-Sci has iOS development courses suited to every skill level. -->
+            </p> <br>
+            <h3>Become one of the millions who have learned iOS development on Young-Sci.</h3>
+        </div>
+    </section>
+
+
+    <!-- Courses List -->
+    <section class="course-section">
+        <div class="course">
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+        </div>
+        <div class="list-course">
+            <ul>
+                <li>
+                    <button id="btn-ios">IOS Development</button>
+                </li>
+                <li>
+                    <button id="btn-flutter">flutter</button>
+                </li>
+                <li>
+                    <button id="btn-swift">Android Studio</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- IOS DEV Section -->
+    <section id="ios-section">
+
+        <div class="title-underline">
+            <div class="course-title">
+                <h3>IOS Development</h3>
+            </div>
+            <div class="HLine"></div>
+        </div>
+
+        <div class="container">
+            <div class="subtitle">
+                <p>Course to get you started</p>
+            </div>
+            <div class="HLine"></div>
+            <div class="row">
+                <div class="col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev1.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/angelaYu.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4> iOS 11 & Swift 4 - The Complete iOS App Development Bootcamp </h4> <br>
+                            <a href="#"> See More </a>
+                            <p> Taught By: Dr.Angela Yu </p> <br>
+                            <div class="cart">
+                                <p>$84.99</p> 
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev2.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/angelaYu.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>iOS & Swift - The Complete iOS App Development Bootcamp</h4> <br>
+                            <a href="#"> See More </a>
+                            <p> Taught By: Dr.Angela Yu</p> <br>
+                            
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev3.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/JonathanRasmusson.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Level Up in Auto Layout - Swift & iOS</h4> <br>
+                            <a href="#"> See More </a>
+                            <p> Taught By: Jonathan Rasmusson</p> <br>
+                            
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev4.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/SergeyKargopolov.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Unit Testing Swift Mobile App</h4> <br>
+                            <a href="#"> See More </a>
+                            <p> Taught By: Sergey Kargopolov</p> <br>
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div style="margin-top: 70px;" class="row">
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev5.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/StephanDowless.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Instagram Firestore App Clone | Swift 5 + iOS 14 | MVVM</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Stephan Dowless</p> <br>
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev6.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/StephanDowless.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Instagram SwiftUI Clone | MVVM | Cloud Firestore</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Stephan Dowless</p> <br>
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev7.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/RonErez.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Deep Dive iOS 16 Swift / SwiftUI Programming</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Dr.Ron Erez</p> <br>
+
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/iosDev8.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/JonathanRasmusson.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>The Swift Arcade Professional iOS Development Course - UIKit</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Jonathan Rasmusson</p> <br>
+
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FLUTTER SECTION -->
+    <section id="flutter-section">
+
+        <div class="title-underline">
+            <div class="course-title">
+                <h3>FLutter</h3>
+            </div>
+            <div class="HLine"></div>
+        </div>
+
+        <div class="container">
+            <div class="subtitle">
+                <p>Course to get you started</p>
+            </div>
+            <div class="HLine"></div>
+            
+            <div class="row">
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu1.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/angelaYu.jpeg"
+                                align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>The Complete Flutter Development Bootcamp with Dart</h4> <br>
+                            <a href="#"> See More</a>
+                            <p>Taught: By: Dr. Angela Yu</p> <br>
+                            
+                            <div class="cart">
+                                <p>$99.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu2.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Paulo_Dichone.jpeg"
+                                align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Flutter & Dart - The Complete Flutter App Development Course</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Paulo Dichone</p> <br>
+                            <div class="cart">
+                                <p>$79.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu3.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Bryan_Cairns.jpeg"
+                                align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Flutter - Beginners Course</h4> <br>
+                            <a href="#"> See More</a>
+                            <p>Taught By: Bryan Cairns</p> <br>
+                            
+                            <div class="cart">
+                                <p>$24.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu4.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Stephen_Grider.jpeg"
+                                align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Dart and Flutter: The Complete Developer's Guide</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Stephen Grider</p> <br>
+                            
+                            <div class="cart">
+                                <p>$89.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div style="margin-top: 70px;" class="row">
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu5.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Snehal_Singh.jpeg"
+                                align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Learn Flutter and Dart to create Android and IOS apps</h4> <br>
+                            <a href="#"> See More</a>
+                            <p>Snehal Singh</p> <br>
+    
+                            <div class="cart">
+                                <p>$39.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu6.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Tiberiu_Potec.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Flutter BLoC - From Zero to Hero Complete Course</h4> <br>
+                            <a href="#"> See More</a>
+                            <p>Tiberiu Potec</p> <br>
+    
+                            <div class="cart">
+                                <p>$74.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu7.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Hadi_Kachmar.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Flutter 1.2 with Firebase&Stripe Build shop app from scratch</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Hadi Kachmar</p> <br>
+    
+                            <div class="cart">
+                                <p>$74.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/flu8.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Marcus_Ng.jpeg"  align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>The Complete Flutter UI Masterclass | iOS, Android, & Web</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Marcus Ng</p> <br>
+    
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- Swift Section -->
+    <section id="swift-section" >
+
+        <div class="title-underline">
+            <div class="course-title">
+                <h3>Android Studio</h3>
+            </div>
+            <div class="HLine"></div>
+        </div>
+
+        <div class="container">
+            <div class="subtitle">
+                <p>Course to get you started</p>
+            </div>
+            <div class="HLine"></div>
+    
+    
+            <div class="row">
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and1.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Kurt_Anderson.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Android Studio Masterclass: Conquer the Android IDE</h4> <br>
+                            <a href="#"> See More </a>
+                            <p> Taught By: Kurt Anderson</p> <br>
+    
+                            <div class="cart">
+                                <p>$39.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and2.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Michael_Eramo.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>The Art of Doing: Dive Into Android Development with Kotlin</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Michael Eramo</p> <br>
+    
+                            <div class="cart"> 
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and3.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Nurullah_TAŞ.jpeg"  align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Android Studio Chat App like WhatsApp (2021)</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Nurullah TAŞ</p> <br>
+     
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and4.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Deepak_Kolhe.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Firebase Advanced- Real Time Chat App in Android Studio</h4> <br>
+                            <a href="#"> See More </a> 
+                            <p>Taught By: Deepak Kolhe</p> <br>
+    
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div style="margin-top: 70px;" class="row">
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and5.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Tim_Buchalka.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Mastering Intellij IDEA and Android Studio</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Tim Buchalka</p> <br>
+    
+                            <div class="cart">
+                                <p>$79.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and6.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Mustafa_Alawi.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Create Instagram Like App For Android</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Mustafa Alawi</p> <br>
+    
+                            <div class="cart">
+                                <p>$89.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and7.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Sagar_Kundu.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Android Studio Masterclass - APP DEVELOPMENT COURSE</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Taught By: Sagar Kundu</p> <br>
+    
+                            <div class="cart">
+                                <p>$19.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class=" col-3 col-lg-3 col-sm-3 col-s-6">
+                    <div class="course-item">
+                        <div class="course-img">
+                            <img src="/images/and8.png" alt="">
+                        </div>
+                        <div class="prof-icon">
+                            <img src="/images/Droiduino Online Course.jpeg" align="center" alt="">
+                        </div>
+                        <div class="course-des">
+                            <h4>Control Arduino Using Android App : Step By Step</h4> <br>
+                            <a href="#"> See More </a>
+                            <p>Droiduino Online Course</p> <br>
+    
+                            <div class="cart">
+                                <p>$84.99</p>
+                                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    <section>
+        <!-- create view course container -->
+        <div class="container sect2">
+            <div class="side-sect2">
+                <p> Student Can Also View With These Popular Courses </p>
+                <ul>
+                    <li> <i class="fa-solid fa-circle-arrow-left"></i></li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i></li>
+                </ul>
+            </div>
+            <div class="seperate-line"></div>
+
+
+            <!-- create course box container -->
+            <section id="course-box__cont1">
+                <div class="course-box__list--container">
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="/images/pop1.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/images/Mark_Wahlbeck.jpeg" alt="">
+                        </div>
+                        <h4>iOS 11 & Swift 4: From Beginner to Paid Professional™</h4> <br>
+                        <a href="#"> See More</a>
+                        <h5> Taught By: Mark Wahlbeck </h5><br>
+                        
+                        <span> $109.99 </span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+    
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="/images/pop2.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/images/Nick_Walter.jpeg" alt="">
+                        </div>
+                        <h4>How to Make a Freaking iPhone App - iOS 10 and Swift 3</h4> <br>
+                        <a href="#"> See More</a> 
+                        <h5>Taught By: Nick Walter</h5><br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+    
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="/images/pop3.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/images/Gwinyai_Nyatsoka.jpeg" alt="">
+                        </div>
+                        <h4>iOS 12 & Swift 5 - App Design, UI/UX plus Development</h4> <br>
+                        <a href="#"> See More</a> 
+                        <h5>Taught By: Gwinyai Nyatsoka </h5> <br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+    
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="/images/pop4.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/images/Aaron_Caines.jpeg" alt="">
+                        </div>
+                        <h4> iOS 10 and Xcode 8 - Complete Swift 3 & Objective-C Course </h4> <br> 
+                        <a href="#"> See More</a> 
+                        <h5>Taught By: Aaron Caines</h5> <br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <!-- create course box container -->
+            <section id="course-box__cont2">
+                <div class="course-box__list--container">
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="http://www.fiabilite.in/images/pythontraining.jpg" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/andreiNegoi.jpg" alt="">
+                        </div>
+                        <h4>Learn Python: The Complete Python Programming Course</h4> <br> 
+                        <a href="#">See More</a>
+                        <h5>Taught By: Andrei Neagoie</h5> <br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                     <div class="course-box__list">
+                        <a href="#"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211109175504/Data-Analysis-with-Python.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/andreiNegoi.jpg" alt="">
+                        </div>
+                        <h4>Learning Python for Data Analysis and Visualization Ver 1 </h4> <br> 
+                        <a href="#">See More</a>
+                        <h5>Taught By: Andrei Neagoie</h5> <br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1096616/retina_1708x683_cover-top-18-most-common-angularjs-developer-mistakes-41f9ad303a51db70e4a5204e101e7414.png" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/andreiNegoi.jpg" alt="">
+                        </div>
+                        <h4>Angular - The Complete Guide (2023 Edition)</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Andrei Neagoie</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png" alt=""></a>
+    
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/andreiNegoi.jpg" alt="">
+                        </div>
+                        <h4>Complete NodeJS Developer in 2023 (GraphQL, MongoDB, + more)</h4> <br> 
+                        <a href="#">See More</a>
+                        <h5>Taught By: Andrei Neagoie</h5> <br>
+    
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                   
+                </div>
+            </section>
+
+
+            <!-- create course box container -->
+            <section id="course-box__cont3">
+                <div class="course-box__list--container">
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://metamug.com/article/images/api-integration/create-rest-api-in-php.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/13952972_e853.jpg" alt="">
+                        </div>
+                        <h4>PHP for Beginners - Become a PHP Master - CMS Project</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Maximilian Schwarzmüller</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://embed-ssl.wistia.com/deliveries/90455478bb71b5642dccd5bbbac98350.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/753752_eb1c.jpg" alt="">
+                        </div>
+                        <h4>Beginning Laravel 9 - From Novice to Professional (2022)</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Eding Muhamad Saprudin</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://miro.medium.com/max/1200/1*slHeZngyeUr7ypEz7MNL5w.png" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg" alt="">
+                        </div>
+                        <h4>Build a Backend REST API with Python & Django - Advanced</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Jose Portilla</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://miro.medium.com/max/1200/1*4X5NUi5xufnIHcAr0DyFvA.png" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/82487_ca08_5.jpg" alt="">
+                        </div>
+                        <h4>Dissecting Ruby on Rails 5 - Become a Professional Developer</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Jordan Hudgens</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- create course box container -->
+            <section id="course-box__cont4">
+                <div class="course-box__list--container">
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://www.weetechsolution.com/wp-content/uploads/2022/04/Evolution-of-Swift-in-iOS-Apps-development.png" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/angela.jpeg" alt="">
+                        </div>
+                        <h4>iOS & Swift - The Complete iOS App Development Bootcamp</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Angela Yu</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/1562d4dae8dc03456edca898e89c0f39ae086a8f-1600x1000.png?w=1200&h=750&auto=format&fm=webp" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="/Professor_Image/angela.jpeg" alt="">
+                        </div>
+                        <h4>The Complete Flutter Development Bootcamp with Dart</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Angela Yu</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/2467626_f2e0_3.jpg" alt="">
+                        </div>
+                        <h4>JavaScript: Understanding the Weird Parts</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Anthony Alicea</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mY622Qoc--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/398a310kjdiv647cld1y.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/2467626_f2e0_3.jpg" alt="">
+                        </div>
+                        <h4>JavaScript: Understanding ES6 and Beyond</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Anthony Alicea</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- create course box container -->
+            <section id="course-box__cont5">
+                <div class="course-box__list--container">
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://i.ytimg.com/vi/PkdY8vfNxQs/maxresdefault.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg" alt="">
+                        </div>
+                        <h4>The Nuxt 3 Bootcamp - The Complete Developer Guide</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Jose Portilla</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://lh3.googleusercontent.com/tJyQb1LLKbuC23fnWPBi8lZMonmPD8OQCeIDJ7uW-RGEvlxZ0I4aYb9mUN7i5sm0jyg86fNCIzUCg8ThAuuKze_wYgTtBaIOiQyDp3c2hm95bgnWOIDW4m4s33zWkexRmW9L42Jj86OHbjI_wMLkhUiAtkhyD0DIWDpguihza23xbGYAadJ7PnQL2CtaTw" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/13952972_e853.jpg" alt="">
+                        </div>
+                        <h4>Complete Vue Developer 2023: Zero to Mastery (Pinia, Vitest)</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Maximilian Schwarzmüller</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://tsh.io/wp-content/uploads/2020/10/react-hooks-best-practices-lead_.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/7231684_bc0d_5.jpg" alt="">
+                        </div>
+                        <h4>Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Andrew Mead</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://iformatlogic.com/photo/plugin/article/2019/1576136631_1-org.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg" alt="">
+                        </div>
+                        <h4>React - The Complete Guide (incl Hooks, React Router, Redux)</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Jose Portilla</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- create course box container -->
+            <section id="course-box__cont6">
+                <div class="course-box__list--container">
+                    
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/392/posts/33769/preview_image/core-tools-after-effects.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/15601054_5545_26.jpg" alt="">
+                        </div>
+                        <h4>Adobe After Effects: Complete Course from Novice to Expert</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Louay Zambarakji</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://img.freepik.com/free-vector/cartoon-graphic-design-landing-page_52683-70881.jpg?w=2000" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/342181_8b81_6.jpg" alt="">
+                        </div>
+                        <h4>Graphic Design Masterclass: Design Beautiful 40+ Projects</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Cristian Doru Barin</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://cdn.mos.cms.futurecdn.net/KTsKk7aTNqEiKvGQVaCqF5.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/11614232_b0fc.jpg" alt="">
+                        </div>
+                        <h4>Adobe Photoshop CC - Essentials Training Course</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Daniel Walter Scott</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+
+                    <!-- create box course -->
+                    <div class="course-box__list">
+                        <a href="#"><img src="https://miro.medium.com/max/750/0*hzkhj0DgfV79Vouw.jpg" alt=""></a>
+                        
+                        <!-- instructor name for course -->
+                        <div class="instructor-img" align="center">
+                            <img src="https://img-c.udemycdn.com/user/200_H/317821_3cb5_10.jpg" alt="">
+                        </div>
+                        <h4>Adobe Premiere Pro CC Masterclass: Video Editing in Premiere</h4> <br>
+                        <a href="#">See More</a>
+                        <h5>Taught By: Phil Ebiner</h5> <br>
+
+                        <span>$84.99</span>
+                        <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+    <!-- Other Choices Section -->
+    <section id="other-choices">
+
+        <!-- 1 -->
+        <div class="subtitle">
+            <p>Other Choices</p>
+        </div>
+        <div class="HLine"></div>
+
+        <div class="course-item-row">
+            <div class="course-img-row">
+                <img src="/images/otc1.png" alt="">
+            </div>
+            <div class="course-des-row">
+                <h3>Instructor: Nick Sereda</h3> <br>
+                <p> iOS 12: Learn to Code & Build Real iOS 12 Apps in Swift 4.2 <br>
+                    Master iOS 12 development with Swift 4.2 building full-stack apps in this brand new course. Incl. Core ML 2 & ARKit 2!
+                </p>
+                <h5>20 sections • 255 lectures • 51h 50m total length</h5>
+            </div>
+            <div class="price-info">
+                <del>84.99$</del>
+                <h4>23.99$</h4>
+                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="course-item-row">
+            <div class="course-img-row">
+                <img src="/images/otc2.png" alt="">
+            </div>
+            <div class="course-des-row">
+                <h3> Instructor: Nick Sereda</h3> <br>
+                <p> The Complete Flutter App Development Course for Android, iOS <br>
+                    A Complete Guide to the Flutter Framework for building native iOS and Android apps with single code base
+                </p>
+                <h5>9 sections • 33 lectures • 4h 20m total length</h5>
+            </div>
+            <div class="price-info">
+                <del>84.99$</del>
+                <h4>23.99$</h4>
+                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="course-item-row">
+            <div class="course-img-row">
+                <img src="/images/otc3.png" alt="">
+            </div>
+            <div class="course-des-row">
+                <h3>Instructor: Rahul Shetty</h3> <br>
+                <p>The Complete iOS 16 / iOS 15 Developer Course - and SwiftUI! <br>
+                    Learn iOS development with Swift and Xcode. Build apps, games (Instagram, Foursquare etc) + also discover SwiftUI!
+                </p>
+                <h5>34 sections • 375 lectures • 45h 41m total length</h5>
+            </div>
+            <div class="price-info">
+                <del>84.99$</del>
+                <h4>23.99$</h4>
+                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="course-item-row">
+            <div class="course-img-row">
+                <img src="/images/otc4.png" alt="">
+            </div>
+            <div class="course-des-row"> 
+                <h3> Instructor: Wael Badri</h3> <br>
+                <p> The Complete iOS 12 & Swift Developer Course - Build 28 Apps <br>
+                    Use Xcode 10 & Swift 4 to make real iOS12 apps like Uber and Instagram, with CoreML & ARKit, and more!
+                </p>
+                <h5>26 sections • 305 lectures • 44h 26m total length</h5>
+            </div>
+            <div class="price-info">
+                <del>84.99$</del>
+                <h4>23.99$</h4>
+                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+            </div>
+        </div>
+
+        <div class="course-item-row">
+            <div class="course-img-row">
+                <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/04/attachment_114008277-1-e1618926655621.jpeg?auto=format&q=60&fit=max&w=930" alt="">
+            </div>
+            <div class="course-des-row"> 
+                <h3> Instructor: Mo Binni</h3> <br>
+                <p> Complete Web & Mobile Designer in 2023: UI/UX, Figma, +more<br>
+                    Become a Designer in 2023! Master Mobile and Web Design, User Interface + User Experience (UI/UX Design), HTML, and CSS
+                </p>
+                <h5>26 sections • 305 lectures • 44h 26m total length</h5>
+            </div>
+            <div class="price-info">
+                <del>84.99$</del>
+                <h4>23.99$</h4>
+                <a href="/cart_page/cart_page.html"><button> Add To Cart</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <!-- create footer container -->
+        <div class="last-footer">
+
+            <!-- create logo and text below -->
+            <div class="last-logo">
+                <a href="/home_page/home_page.html"><img src="/Save Images/logo-lightAqua.png" alt=""></a>
+                <p> Young-Sci Cambodia <br><br> Change World! Change Future! <br> Visit Us For Your True Vision!</p>
+            </div>    
+            
+            <div class="middle-more__info">
+                <p> For More Information, Please Follow Us: </p>
+                <div class="social-media__list">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook"></i>
+                                <span> YoungSci@gmail.com</span>
+                            </a>                               
+                        </li>
+        
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-messenger"></i>
+                                <span> Chat To Us Directly </span>
+                            </a>                                   
+                        </li>
+        
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i> 
+                                <span> YoungSci-Futuristic</span>
+                            </a>                                  
+                        </li>
+        
+                        <li>
+                            <a href="#"><i class="fa-solid fa-phone"></i> 
+                                <span> 081 411 553, &nbsp; 010 373 755</span>
+                            </a>                                   
+                        </li>
+        
+                        <li>
+                            <a href="#"><i class="fa-brands fa-telegram"></i>
+                                <span> Click Here</span>
+                            </a>                                  
+                       </li>     
+                    </ul>
+                </div>
+            </div>
+
+           <!-- create two link columns -->
+           <div class="choose-course">
+                <p> Main Courses</p>
+                <div class="column-course">
+                    <ul>
+                        <li><a href="/Basic-Microsoft__Course/Basic-MicrosoftUI.html"> Basic Microsoft </a></li>
+                        <li><a href="/Basic-Coding__Course/Basic-CodingUI.html"> Basic Coding</a></li>
+                        <li><a href="/Basic-Database__Course/Basic_DatabaseUI.html"> Basic Database</a></li>
+
+                        <li style="margin-top: 25px;"><a href="/Networking_Course/NetworkUI.html"> Networking</a></li>
+                        <li><a href="/Graphic_Design/Graphic-designUI.html"> Graphic Design</a></li>
+                        <li><a href="/Robotic__Course/RoboticUI.html"> Robotic</a></li>
+                        <li><a href="/Web-Development__Course/web_devUI.html"> Web Development</a></li>
+                        <li><a href="/MobileDevPage/mobileDev.html"> Mobile Development</a></li>
+                        <li><a href="/Game_Dev_Course/Game_DevUI.html"> Game Development</a></li>
+                        
+                        <li style="margin-top: 25px;"><a href="/Data-Science_Course/Data-Science_CourseUI.html"> Data Science</a></li>
+                        <li><a href="/Blockchain-Course/Blockchain-CourseUI.html"> Blockchain</a></li>
+                        <li><a href="/Software-Engine/SoftwareUI.html"> Software Engineering</a></li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+    </section>
+
+
+   
+
+</body>
+
+<script src="mobileDevScript.js"></script>
+<script src="/AllPage_action.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    var type_eff = new Typed(".typethis", {
+        strings : ["Mobile Development", "Ready To Become A Mobile Developer", "Let's Learn The Code and Prove Yourself Up!!!"],
+        loop: true,
+        typeSpeed: 10,
+        backSpeed: 20,
+        backDelay: 2000,
+    })
+
+    var para_eff = new Typed(".type_para", {
+        strings: ["Whether you are looking to enhance your mobile-development skills or are simply interested in designing your own mobile app. <br> Young-Sci has iOS development courses suited to every skill level."],
+        typeSpeed: 5,
+        backSpeed: 20,
+        backDelay: 2000
+    })
+</script>
+
+
+
+</html>
